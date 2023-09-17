@@ -120,7 +120,7 @@
 
 @media only screen and (max-width: 768px) {
   .e-product-suggest-one {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
   }
   .e-product-suggest-one > div:first-child {
@@ -132,11 +132,11 @@
   }
   .e-product-suggest-one > div:first-child > div:last-child {
     width: 100%;
+    /* border: #3a3a3a solid; */
+    margin-top: 1rem;
+    margin-bottom: -3rem;
   }
-  .e-product-suggest-one > div:first-child > div:last-child #img {
-    /* width: 150px;
-    height: 180px; */
-  }
+ 
   .e-product-suggest-one > div:last-child > h1 {
     text-align: center;
   }
